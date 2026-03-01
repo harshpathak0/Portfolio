@@ -1,4 +1,7 @@
 import { Code2, Briefcase, Users, Award, Sparkles, Star, ExternalLink } from 'lucide-react';
+import gwalior from "../assets/images/gwaliorsmartcity.png";
+import bogo from "../assets/images/1onus.png";
+import hyprlinc from "../assets/images/hyprlinc.png";
 
 export const projectsData = [
     {
@@ -6,7 +9,7 @@ export const projectsData = [
         title: "Gwalior Municipal Corporation",
         description: "Municipal Corporation Website for Gwalior City",
         tech: ["React", "Node.js", "PostgreSQL"],
-        image: "/images/Screenshot 2026-02-28 at 10.47.30 PM.png",
+        image: gwalior,
         github: "https://github.com/harshpathak0",
         live: "https://gwaliormunicipalcorporation.org/",
         category: "web"
@@ -16,7 +19,7 @@ export const projectsData = [
         title: "1onus|Bogo App",
         description: "Bogo App for 1onus",
         tech: ["Flutter", "Firebase", "Node.js", "Express", "MongoDB", "AWS"],
-        image: "/images/Screenshot 2026-03-02 at 12.58.31 AM.png",
+        image: bogo,
         github: "https://github.com/harshpathak0",
         live: "https://1onus.com/",
         category: "mobile"
@@ -26,7 +29,7 @@ export const projectsData = [
         title: "Hyprlinc",
         description: "Influencer Brand Collaboration Platform",
         tech: ["React.js", "Node.js", "Express", "socket.io", "PostgreSQL", "AWS", "Tailwind"],
-        image: "/images/Screenshot 2026-02-28 at 10.58.56 PM.png",
+        image: hyprlinc,
         github: "https://github.com/harshpathak0",
         live: "https://hyprlinc.com/",
         category: "web"
