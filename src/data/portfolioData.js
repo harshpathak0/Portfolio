@@ -7,21 +7,19 @@ export const projectsData = [
         description: "Municipal Corporation Website for Gwalior City",
         tech: ["React", "Node.js", "PostgreSQL"],
         image: "/images/Screenshot 2026-02-28 at 10.47.30 PM.png",
-        github: "https://github.com",
-        live: "https://example.com",
-        category: "web",
-        stats: { views: "2.5K", likes: "180", comments: "45" }
+        github: "https://github.com/harshpathak0",
+        live: "https://gwaliormunicipalcorporation.org/",
+        category: "web"
     },
     {
         id: 2,
         title: "1onus|Bogo App",
         description: "Bogo App for 1onus",
-        tech: ["React Native", "Firebase", "Redux", "Expo"],
+        tech: ["Flutter", "Firebase", "Node.js", "Express", "MongoDB", "AWS"],
         image: "/images/Screenshot 2026-03-02 at 12.58.31 AM.png",
-        github: "https://github.com",
-        live: "https://example.com",
-        category: "mobile",
-        stats: { views: "3.2K", likes: "245", comments: "67" }
+        github: "https://github.com/harshpathak0",
+        live: "https://1onus.com/",
+        category: "mobile"
     },
     {
         id: 3,
@@ -29,10 +27,9 @@ export const projectsData = [
         description: "Influencer Brand Collaboration Platform",
         tech: ["React.js", "Node.js", "Express", "socket.io", "PostgreSQL", "AWS", "Tailwind"],
         image: "/images/Screenshot 2026-02-28 at 10.58.56 PM.png",
-        github: "https://github.com",
-        live: "https://example.com",
-        category: "web",
-        stats: { views: "4.1K", likes: "312", comments: "89" }
+        github: "https://github.com/harshpathak0",
+        live: "https://hyprlinc.com/",
+        category: "web"
     },
     // {
     //     id: 4,

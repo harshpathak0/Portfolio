@@ -42,8 +42,8 @@ const Projects = () => {
                             <motion.button
                                 key={category.id}
                                 className={`flex items-center gap-2 px-6 py-3 rounded-full font-medium transition-all ${filter === category.id
-                                        ? 'bg-white text-gray-900 shadow-lg shadow-white/25'
-                                        : 'bg-gray-800/50 text-gray-300 hover:bg-gray-700'
+                                    ? 'bg-white text-gray-900 shadow-lg shadow-white/25'
+                                    : 'bg-gray-800/50 text-gray-300 hover:bg-gray-700'
                                     }`}
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
@@ -118,16 +118,18 @@ const Projects = () => {
                                     </div>
 
                                     {/* Stats */}
-                                    <div className="flex items-center gap-4 text-sm text-gray-400 mb-4">
-                                        <span className="flex items-center gap-1">
-                                            <Users className="w-4 h-4" />
-                                            {project.stats.views}
-                                        </span>
-                                        <span className="flex items-center gap-1">
-                                            <Star className="w-4 h-4" />
-                                            {project.stats.likes}
-                                        </span>
-                                    </div>
+                                    {project.stats && (
+                                        <div className="flex items-center gap-4 text-sm text-gray-400 mb-4">
+                                            <span className="flex items-center gap-1">
+                                                <Users className="w-4 h-4" />
+                                                {project.stats.views}
+                                            </span>
+                                            <span className="flex items-center gap-1">
+                                                <Star className="w-4 h-4" />
+                                                {project.stats.likes}
+                                            </span>
+                                        </div>
+                                    )}
 
                                     {/* Links */}
                                     <div className="flex gap-3">
