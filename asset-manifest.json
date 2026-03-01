@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.665e5c83.css",
-    "main.js": "/Portfolio/static/js/main.b780a654.js",
+    "main.js": "/Portfolio/static/js/main.5c5e039d.js",
     "static/js/453.15a626a8.chunk.js": "/Portfolio/static/js/453.15a626a8.chunk.js",
+    "static/media/gwaliorsmartcity.png": "/Portfolio/static/media/gwaliorsmartcity.0b169b91806df36fe443.png",
+    "static/media/1onus.png": "/Portfolio/static/media/1onus.c5b454183964851a2842.png",
+    "static/media/hyprlinc.png": "/Portfolio/static/media/hyprlinc.06911276d9d64fe337b3.png",
     "index.html": "/Portfolio/index.html",
     "main.665e5c83.css.map": "/Portfolio/static/css/main.665e5c83.css.map",
-    "main.b780a654.js.map": "/Portfolio/static/js/main.b780a654.js.map",
+    "main.5c5e039d.js.map": "/Portfolio/static/js/main.5c5e039d.js.map",
     "453.15a626a8.chunk.js.map": "/Portfolio/static/js/453.15a626a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.665e5c83.css",
-    "static/js/main.b780a654.js"
+    "static/js/main.5c5e039d.js"
   ]
 }
